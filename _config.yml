@@ -16,7 +16,7 @@ markdown: kramdown
 ### content configuration ###
 title:       "hyperclone"
 keywords:    "json, csv, convert, hyperclone"
-description: "convert your lson to csv"
+description: "convert your json to csv"
 source_link: "https://hyperclone.com"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
