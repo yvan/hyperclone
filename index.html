@@ -17,12 +17,12 @@
 <body>
   <div id="main">
 
-    <nav><ul>
+<!--     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
-    </ul></nav>
+    </ul></nav> -->
 
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
@@ -30,7 +30,7 @@
         {% if page.icon %}
         <div class="subtlecircle sectiondivider imaged">
           <img src="{{page.icon}}" alt="section icon" />
-          <!-- <h5 class="icon-title">{{ page.title }}</h5> -->
+          <h5 class="icon-title">{{ page.title }}</h5>
         </div>
         {% elsif page.fa-icon %}
         <div class="subtlecircle sectiondivider faicon">
