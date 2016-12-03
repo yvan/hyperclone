@@ -1,4 +1,4 @@
 
 contact 
 &mdash;
-this site Copyright © hyperclone services
+this site copyright © hyperclone services
